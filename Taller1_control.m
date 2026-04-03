@@ -55,7 +55,6 @@ plot(time, respuesta_m, 'LineWidth', 1.5);             % 3. Miller
 plot(time, respuesta_a, 'LineWidth', 1.5);             % 4. Analitico
 plot(time, signaldeingreso, 'b', 'LineWidth', 1.5)     % 5. Señal de Ingreso
 
-% --- RECTA TANGENTE EN COLOR NARANJA LLAMATIVO ---
 plot(time, y_tangente, 'Color', [1 0.5 0], 'LineStyle', '--', 'LineWidth', 2); 
 
 % Linea de estabilidad
